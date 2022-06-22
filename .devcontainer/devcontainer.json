@@ -1,0 +1,13 @@
+{
+    "name": "golang-vscode-test",
+    "context": ".",
+    "dockerFile": "Dockerfile",
+    "extensions": [
+		"editorconfig.editorconfig",
+		"timonwong.shellcheck",
+		"seatonjiang.gitmoji-vscode",
+		"golang.go"
+	],
+    "forwardPorts": [8080],
+    "containerUser": "vscode"
+}
